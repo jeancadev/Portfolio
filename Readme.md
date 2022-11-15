@@ -8,4 +8,4 @@ Challenge de crear un portafolio en el curso de ONE Next Education de Orale y Al
 * [LinkedIn](https://www.linkedin.com/in/jeancarlosobando/)
 
 ## Ver demo
-* [https://jeancadev.github.io/Portfolio/]https://jeancadev.github.io/Portfolio/)
+* [https://jeancadev.github.io/Portfolio/](https://jeancadev.github.io/Portfolio/)
