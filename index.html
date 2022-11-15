@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/nav-bar/navBar.css">
+  <link rel="stylesheet" href="assets/css/hero-section/heroSection.css">
+  <link rel="stylesheet" href="assets/css/more-about/moreAbout.css">
+  <link rel="stylesheet" href="assets/css/skills-section/skillsSection.css">
+  <link rel="stylesheet" href="assets/css/projects-section/projectsSection.css">
+  <link rel="stylesheet" href="assets/css/contacto-section/contactsSection.css">
+  <link rel="stylesheet" href="assets/css/social-buttons/socialButtons.css">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/android-chrome-192x192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="assets/icons/android-chrome-512x512.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.ico" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Jean Carlos | Web Developer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Jean Carlos Obando</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">Sobre mí</a></li>
+      <li><a href="#skills" class="nav-link">Habilidades</a></li>
+      <li><a href="#projects" class="nav-link">Proyectos</a></li>
+      <li><a href="#contact" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="assets/images/Web-developer.svg" alt="jean-obando" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Sobre mí</h2>
+      <p class="bio-text">
+        Apasoniado por la tencnología, soy técnico en informática con mas de 5 años de experiencia ofreciendo un
+        mantenimiento correctivo y preventivo en equipos y sistemas informáticos, siempre aplicando el conocimiento
+        adquirido y combinándolo con el conocimiento autodidacta para refrescar mis habilidades y aprender de las nuevas
+        tecnologías.
+      </p>
+    </div>
+  </section>
+
+  <!-- More about -->
+  <section class="more-about">
+    <h2>Más Sobre mí</h2>
+    <p>
+      Actualmente mi enfoque esta en aprender las tecnologías mas usadas en el desarrollo web front-end llevando cursos
+      en plataformas como Udemy, Coursera y el programa de Oracle y Alura-Latam: One Next Education. Así también divido
+      mi jornada para aprender mucho más sobre Cloud Computing 💻
+    </p>
+    <p>
+      Autodidacta en constante aprendizaje y al pendiente de las nuevas tecnologías.
+    </p>
+    <p>
+      En mis tiempos libres disfruto leer libros 📚 sobre el desarrollo personal y profesional, y también disfrutar de
+      un buen partido de fútbol o una buena partida en un videojugo 🎮
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">Mis habilidades</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/Django-logo.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Algunos de mis proyectos recientes</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/images/Encriptador-texto.png" alt="encriptador-de-texto" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Encriptador de Texto</h3>
+        <p class="project-details">
+          Encriptador que permite que el emisor codifique su mensaje y el receptor lo pueda decodificar para devolverlo
+          a su estado original. Incluida esta la función de copiar ese mensaje.
+          Ingresa algun texto y encriptalo 😉
+        </p>
+        <a href="https://jeancadev.github.io/Code-Alura/" target="_blank" class="project-link">Échale un vistazo</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/Ahorcado.png" alt="juego-del-ahorcado" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Juego del Ahorcado</h3>
+        <p class="project-details">
+          Divertido juego del ahorcado, con una cantidad limitada de intentos, cada fallo añadirá una parte de la horca
+          hasta alcanzar los 5 intentos. pon a prueba tus conocimientos y evita ahorcar al dibujito 😄
+        </p>
+        <a href="https://jeancadev.github.io/JuegoDelAhorcado/" target="_blank" class="project-link">Échale un
+          vistazo</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/Todo-APP.png" alt="todo-app" loading="lazy" class="project-pic" />
+        <h3 class="project-title">TO-DO Administrador de tareas</h3>
+        <p class="project-details">
+          Aplicacion diseñada para crear un listado de tareas por hacer, puedes marcar las que has echo o eliminarlas.
+          Se agrupan en
+          orden por la fecha seleccionada, ¡muy util! 📄
+        </p>
+        <a href="https://jeancadev.github.io/Formulario-de-tareas/" target="_blank" class="project-link">Échale un
+          vistazo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Ponte en contacto conmigo</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/meqdnkar" method="POST">
+          <div class="form-control">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="sender-name" placeholder="Ingrese su nombre" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Ingrese su email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Mensaje</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Ingrese su mensaje" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="enviar" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts -->
+  <div class="socials">
+    <a href="https://twitter.com/jeancarlosoc" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.instagram.com/jeanca_obando/" target="_blank"><img src="assets/icons/icons8-instagram.gif"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/jeancarlosobando/" target="_blank"><img
+        src="assets/icons/icons8-linkedin-circled.gif" alt="LinkedIn" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/jeancadev" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+  </div>
+
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+    <p class="copy">
+      Elaborado con &#x2661; by
+      <a href="https://twitter.com/jeancarlosoc" target="_blank">Jean Carlos Obando (JeanCa)</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

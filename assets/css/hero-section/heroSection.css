@@ -1,0 +1,127 @@
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio h1 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+
+/* Hero section ends */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 25.5rem;
+        width: 35rem;
+    }
+
+    .bio {
+        margin-top: 1rem;
+        width: 20.5rem;
+    }
+
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .more-about h2 {
+        text-align: center;
+    }
+
+    .more-about p {
+        text-align: justify;
+    }
+
+    .icon {
+        width: 5.875rem;
+        height: 5.25rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-container {
+        width: 20.875rem;
+    }
+
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero img {
+        height: 25.5rem;
+        width: 23rem;
+    }
+
+    .bio {
+        width: 18.3rem;
+    }
+
+    .project-container {
+        width: 17.875rem;
+    }
+
+    .contact-form-container {
+        max-width: 17.75rem;
+    }
+}
