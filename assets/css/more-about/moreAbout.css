@@ -45,7 +45,7 @@
 
     nav ul.show {
         transform: translateX(0);
-    }
+    } 
 
     .hero {
         flex-direction: column;
